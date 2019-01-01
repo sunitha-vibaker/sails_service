@@ -1,0 +1,16 @@
+{
+  "generators": {
+    "modules": {}
+  },
+  "_generatedWith": {
+    "sails": "1.1.0",
+    "sails-generate": "1.16.2"
+  },
+  "command": {
+  "deploy": "sails-deploy"
+},
+"hooks" : {
+          "sockets" : false
+    }
+
+}
