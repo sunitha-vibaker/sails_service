@@ -8,11 +8,11 @@
 module.exports = {
 
   attributes: {
-	 id: { type: 'string', columnName: '_id' },
-    prod_name: {type:'string'};
-    prod_desc: {type:'string'};
-    prod_price: {type:'number'};
-    updated_at: {type:Date};
+	 id: { type: 'string', columnName: '_id' };
+    prod_name: {type:'string'},
+    prod_desc: {type:'string'},
+    prod_price: {type:'number'},
+    updated_at: {type:Date}
 	
   },
   datastore:'mongodb'
