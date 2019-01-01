@@ -20,9 +20,9 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
-  'get /articles/list':   {
-    view: 'articles/list',
-    controller: 'ArticlesController',
+  'get /products/list':   {
+
+    controller: 'ProductsController',
     action: 'list'
    
 },
